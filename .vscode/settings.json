@@ -12,5 +12,8 @@
         "/opt/ros/noetic/lib/python3/dist-packages"
     ],
     "bitoAI.codeCompletion.enableAutoCompletion": false,
-    "cmake.sourceDirectory": "/home/wang/data/tangba_ws/src/hunter_bipedal_control/legged_examples/legged_bridge/legged_bridge_hw/app/thirdparty"
+    "cmake.sourceDirectory": "/home/wang/data/tangba_ws/src/hunter_bipedal_control/legged_examples/legged_bridge/legged_bridge_hw/app/thirdparty",
+    "files.associations": {
+        "array": "cpp"
+    }
 }
