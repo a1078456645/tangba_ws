@@ -33,7 +33,7 @@
         xyz="-0.0381325 -0.0043577 0.1372842"
         rpy="0 0 0" />
       <mass
-        value="9.2349183" />
+        value="3.71439" />
       <inertia
         ixx="0.0693054"
         ixy="-0.0012640"
@@ -298,7 +298,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-          <box size="0.001 0.001 0.001" /><!--宽 长 高!-->
+        <box size="0.12 0.1 0.06" /> <!-- 膝关节部件 -->
       </geometry>
     </collision>
   </link>
@@ -380,10 +380,10 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0 0 -0.03"
         rpy="0 0 0" />
       <geometry>
-          <box size="0.001 0.001 0.001" /><!--宽 长 高!-->
+        <box size="0.1 0.08 0.15" /> <!-- 踝关节部件 -->
       </geometry>
     </collision>
   </link>
@@ -724,7 +724,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-          <box size="0.001 0.001 0.001" /><!--宽 长 高!-->
+        <box size="0.12 0.1 0.06" /> <!-- 膝关节部件 -->
       </geometry>
     </collision>
   </link>
@@ -806,10 +806,10 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0 0 -0.03"
         rpy="0 0 0" />
       <geometry>
-          <box size="0.001 0.001 0.001" /><!--宽 长 高!-->
+        <box size="0.1 0.08 0.15" /> <!-- 踝关节部件 -->
       </geometry>
     </collision>
   </link>
