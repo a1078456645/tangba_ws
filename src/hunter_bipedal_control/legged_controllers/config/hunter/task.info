@@ -27,7 +27,7 @@ swing_trajectory_config
 
   feet_bias_x1                  0.152
   feet_bias_x2                 -0.094
-  feet_bias_y                   0.11
+  feet_bias_y                   0.170
   feet_bias_z                  -0.2536
   
   next_stance_position_z        0.02
