@@ -238,10 +238,10 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0 0 -0.03"
         rpy="0 0 0" />
       <geometry>
-          <box size="0.001 0.001 0.001" /><!--宽 长 高!-->
+        <box size="0.12 0.1 0.06" /> <!--宽 长 高!-->
       </geometry>
     </collision>
   </link>
@@ -324,7 +324,7 @@
     name="leg_l_f2_link">
   </link>
   <joint
-    name="leg_l5_fixed_1"
+    name="leg_l5_fixed_2"
     type="fixed">
     <origin
       xyz="-0.094 0 -0.11"
@@ -338,7 +338,7 @@
     name="leg_l_f1_link">
   </link>
   <joint
-    name="leg_l5_fixed_2"
+    name="leg_l5_fixed_1"
     type="fixed">
     <origin
       xyz="0.1515 0 -0.11"
@@ -383,7 +383,7 @@
         xyz="0.02 -0.03 -0.03"
         rpy="0 0 0" />
       <geometry>
-        <box size="0.2 0.08 0.15" /> <!-- 踝关节部件 -->
+        <box size="0.23 0.08 0.15" /> <!-- 踝关节部件 -->
       </geometry>
     </collision>
   </link>
@@ -664,10 +664,10 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0 0 -0.03"
         rpy="0 0 0" />
       <geometry>
-          <box size="0.001 0.001 0.001" /><!--宽 长 高!-->
+        <box size="0.12 0.1 0.06" /><!--宽 长 高!-->
       </geometry>
     </collision>
   </link>
@@ -809,7 +809,7 @@
         xyz="0.02 0.03 -0.03"
         rpy="0 0 0" />
       <geometry>
-        <box size="0.2 0.08 0.15" /> <!-- 踝关节部件 -->
+        <box size="0.23 0.08 0.15" /> <!-- 踝关节部件 -->
       </geometry>
     </collision>
   </link>
