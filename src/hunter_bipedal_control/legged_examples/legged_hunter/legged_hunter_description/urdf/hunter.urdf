@@ -295,7 +295,7 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0 -0.0 -0.02"
         rpy="0 0 0" />
       <geometry>
         <box size="0.12 0.1 0.06" /> <!-- 膝关节部件 -->
@@ -380,10 +380,10 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 -0.03"
+        xyz="0.02 -0.03 -0.03"
         rpy="0 0 0" />
       <geometry>
-        <box size="0.1 0.08 0.15" /> <!-- 踝关节部件 -->
+        <box size="0.2 0.08 0.15" /> <!-- 踝关节部件 -->
       </geometry>
     </collision>
   </link>
@@ -721,7 +721,7 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0.0 0.0 0.02"
         rpy="0 0 0" />
       <geometry>
         <box size="0.12 0.1 0.06" /> <!-- 膝关节部件 -->
@@ -806,10 +806,10 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 -0.03"
+        xyz="0.02 0.03 -0.03"
         rpy="0 0 0" />
       <geometry>
-        <box size="0.1 0.08 0.15" /> <!-- 踝关节部件 -->
+        <box size="0.2 0.08 0.15" /> <!-- 踝关节部件 -->
       </geometry>
     </collision>
   </link>
